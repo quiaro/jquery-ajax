@@ -2,6 +2,7 @@ define([
 	"./core",
 	"./callbacks",
 	"./deferred",
+	"./serialize",
 	"./ajax",
 	"./ajax/xhr",
 	"./ajax/script"

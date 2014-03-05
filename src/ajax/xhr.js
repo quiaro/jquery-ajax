@@ -24,7 +24,8 @@ var xhrId = 0,
 // Support: IE9
 // Open requests must be manually aborted on unload (#5280)
 if ( window.ActiveXObject ) {
-	jQuery( window ).on( "unload", function() {
+
+	window.addEventListener( "unload", function() {
 		for ( var key in xhrCallbacks ) {
 			xhrCallbacks[ key ]();
 		}

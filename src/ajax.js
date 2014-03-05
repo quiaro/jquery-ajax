@@ -295,7 +295,6 @@ jQuery.extend({
 		url: ajaxLocation,
 		type: "GET",
 		isLocal: rlocalProtocol.test( ajaxLocParts[ 1 ] ),
-		global: true,
 		processData: true,
 		async: true,
 		contentType: "application/x-www-form-urlencoded; charset=UTF-8",
