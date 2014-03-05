@@ -1,9 +1,6 @@
 /*!
- * jQuery JavaScript Library v@VERSION
+ * Ajax library from the jQuery JavaScript Library
  * http://jquery.com/
- *
- * Includes Sizzle.js
- * http://sizzlejs.com/
  *
  * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
  * Released under the MIT license

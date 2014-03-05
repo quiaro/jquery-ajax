@@ -18,11 +18,7 @@ var
 	version = "@VERSION",
 
 	// Define a local copy of jQuery
-	jQuery = function( selector, context ) {
-		// The jQuery object is actually just the init constructor 'enhanced'
-		// Need init if jQuery is called (just allow error to be thrown if not included)
-		return new jQuery.fn.init( selector, context );
-	},
+	jQuery = {},
 
 	// Support: Android<4.1
 	// Make sure we trim BOM and NBSP
