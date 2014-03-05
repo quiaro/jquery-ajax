@@ -1,5 +1,5 @@
 /*!
- * Ajax library from the jQuery JavaScript Library
+ * Ajax library from the jQuery JavaScript Library (v.2.1.0)
  * http://jquery.com/
  *
  * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
