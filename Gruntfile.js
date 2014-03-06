@@ -34,8 +34,7 @@ module.exports = function( grunt ) {
 			all: {
 				dest: "dist/jquery.js",
 				minimum: [
-					"core",
-					"selector"
+					"core"
 				],
 				// Exclude specified modules if the module matching the key is removed
 				removeWith: {
