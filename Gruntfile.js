@@ -20,7 +20,7 @@ module.exports = function( grunt ) {
 		pkg: grunt.file.readJSON( "package.json" ),
 		dst: readOptionalJSON( "dist/.destination.json" ),
 		compare_size: {
-			files: [ "dist/jquery.js", "dist/jquery.min.js" ],
+			files: [ "dist/jquery-ajax.js", "dist/jquery-ajax.min.js" ],
 			options: {
 				compress: {
 					gz: function( contents ) {
@@ -32,7 +32,7 @@ module.exports = function( grunt ) {
 		},
 		build: {
 			all: {
-				dest: "dist/jquery.js",
+				dest: "dist/jquery-ajax.js",
 				minimum: [
 					"core"
 				],
@@ -93,7 +93,7 @@ module.exports = function( grunt ) {
 				}
 			},
 			dist: {
-				src: "dist/jquery.js",
+				src: "dist/jquery-ajax.js",
 				options: srcHintOptions
 			}
 		},
@@ -112,12 +112,12 @@ module.exports = function( grunt ) {
 		uglify: {
 			all: {
 				files: {
-					"dist/jquery.min.js": [ "dist/jquery.js" ]
+					"dist/jquery-ajax.min.js": [ "dist/jquery-ajax.js" ]
 				},
 				options: {
 					preserveComments: false,
-					sourceMap: "dist/jquery.min.map",
-					sourceMappingURL: "jquery.min.map",
+					sourceMap: "dist/jquery-ajax.min.map",
+					sourceMappingURL: "jquery-ajax.min.map",
 					report: "min",
 					beautify: {
 						ascii_only: true

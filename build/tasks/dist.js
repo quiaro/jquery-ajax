@@ -4,9 +4,9 @@ module.exports = function( grunt ) {
 
 	var fs = require( "fs" ),
 		distpaths = [
-			"dist/jquery.js",
-			"dist/jquery.min.map",
-			"dist/jquery.min.js"
+			"dist/jquery-ajax.js",
+			"dist/jquery-ajax.min.map",
+			"dist/jquery-ajax.min.js"
 		];
 
 	// Process files for distribution
