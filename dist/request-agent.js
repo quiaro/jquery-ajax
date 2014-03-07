@@ -1,12 +1,14 @@
 /*!
- * Ajax library from the jQuery JavaScript Library (v.2.1.0)
- * http://jquery.com/
+ * Request Agent
+ * jQuery Ajax + Deferreds
  *
- * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
- * Released under the MIT license
+ * Many thanks to the jQuery Foundation, Inc. and its contributors
+ * for a robust cross-browser javascript library
+ *
+ * jQuery Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2014-03-07T19:03Z
+ * Date: 2014-03-07T20:09Z
  */
 
 define(function () {

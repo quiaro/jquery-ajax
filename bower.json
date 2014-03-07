@@ -6,9 +6,11 @@
   "ignore": [
     "**/.*",
     "build",
+    "src",
     "*.md",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "*.txt"
   ],
   "devDependencies": {
     "requirejs": "2.1.10"
