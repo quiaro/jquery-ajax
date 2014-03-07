@@ -1,26 +1,23 @@
 {
-  "name": "jquery",
-  "version": "2.1.1pre",
-  "main": "dist/jquery.js",
+  "name": "request-agent",
+  "version": "1.0",
+  "main": "dist/request-agent.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "build",
-    "speed",
-    "test",
     "*.md",
-    "AUTHORS.txt",
     "Gruntfile.js",
     "package.json"
   ],
   "devDependencies": {
-    "sizzle": "1.10.18",
-    "requirejs": "2.1.10",
-    "qunit": "1.14.0",
-    "sinon": "1.8.1"
+    "requirejs": "2.1.10"
   },
   "keywords": [
-    "jquery",
+    "request",
+    "agent",
+    "http",
+    "ajax",
     "javascript",
     "library"
   ]

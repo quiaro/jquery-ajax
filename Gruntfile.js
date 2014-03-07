@@ -20,7 +20,7 @@ module.exports = function( grunt ) {
 		pkg: grunt.file.readJSON( "package.json" ),
 		dst: readOptionalJSON( "dist/.destination.json" ),
 		compare_size: {
-			files: [ "dist/jquery-ajax.js", "dist/jquery-ajax.min.js" ],
+			files: [ "dist/request-agent.js", "dist/request-agent.min.js" ],
 			options: {
 				compress: {
 					gz: function( contents ) {
@@ -32,7 +32,7 @@ module.exports = function( grunt ) {
 		},
 		build: {
 			all: {
-				dest: "dist/jquery-ajax.js",
+				dest: "dist/request-agent.js",
 				minimum: [
 					"core"
 				],
@@ -93,7 +93,7 @@ module.exports = function( grunt ) {
 				}
 			},
 			dist: {
-				src: "dist/jquery-ajax.js",
+				src: "dist/request-agent.js",
 				options: srcHintOptions
 			}
 		},
@@ -112,19 +112,16 @@ module.exports = function( grunt ) {
 		uglify: {
 			all: {
 				files: {
-					"dist/jquery-ajax.min.js": [ "dist/jquery-ajax.js" ]
+					"dist/request-agent.min.js": [ "dist/request-agent.js" ]
 				},
 				options: {
 					preserveComments: false,
-					sourceMap: "dist/jquery-ajax.min.map",
-					sourceMappingURL: "jquery-ajax.min.map",
+					sourceMap: "dist/request-agent.min.map",
+					sourceMappingURL: "request-agent.min.map",
 					report: "min",
 					beautify: {
 						ascii_only: true
 					},
-					banner: "/*! jQuery v<%= pkg.version %> | " +
-						"(c) 2005, <%= grunt.template.today('yyyy') %> jQuery Foundation, Inc. | " +
-						"jquery.org/license */",
 					compress: {
 						hoist_funs: false,
 						loops: false,

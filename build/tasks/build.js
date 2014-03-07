@@ -14,7 +14,7 @@ module.exports = function( grunt ) {
 		config = {
 			baseUrl: "src",
 			name: "jquery",
-			out: "dist/jquery-ajax.js",
+			out: "dist/request-agent.js",
 			// We have multiple minify steps
 			optimize: "none",
 			// Include dependencies loaded with require
