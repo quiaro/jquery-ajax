@@ -1,6 +1,6 @@
 {
   "name": "request-agent",
-  "version": "1.0",
+  "version": "1.0.0",
   "main": "dist/request-agent.js",
   "license": "MIT",
   "ignore": [
